@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+.shanzi-container {
+  height: 500px;
+  width: 100%;
+}
+.shanzi li {
+  list-style-type: none;
+  position: absolute;
+  height: 400px;
+  width: 260px;
+  font-size: 140px;
+  line-height: 200px;
+  text-align: center;
+  left: 50%;
+  margin-left: -130px;
+  box-shadow: 0 0 50px 1px #888;
+
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 200%;
+  -o-transform-origin: 50% 200%;
+  -ms-transform-origin: 50% 200%;
+  transform-origin: 50% 200%;
+
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.shanzi li:nth-child(1) {background-color: rgb(182, 182, 5);  }
+.shanzi li:nth-child(2) {background-color: rgb(198, 182, 5);  }
+.shanzi li:nth-child(3) {background-color: rgb(218, 182, 5);  }
+.shanzi li:nth-child(4) {background-color: rgb(234, 182, 255);}
+.shanzi li:nth-child(5) {background-color: rgb(255, 182, 255);}
+.shanzi li:nth-child(6) {background-color: rgb(255, 182, 234);}
+.shanzi li:nth-child(7) {background-color: rgb(255, 182, 218);}
+.shanzi li:nth-child(8) {background-color: rgb(255, 182, 198);}
+.shanzi li:nth-child(9) {background-color: rgb(255, 182, 182);}
+.shanzi li:nth-child(10) {background-color: rgb(255, 198, 182);}
+.shanzi li:nth-child(11) {background-color: rgb(255, 218, 182);}
+.shanzi li:nth-child(12) {background-color: rgb(255, 234, 182);}
+.shanzi li:nth-child(13) {background-color: rgb(255, 255, 182);}
+.shanzi li:nth-child(14) {background-color: rgb(234, 255, 182);}
+.shanzi li:nth-child(15) {background-color: rgb(218, 255, 182);}
+.shanzi li:nth-child(16) {background-color: rgb(198, 255, 182);}
+.shanzi li:nth-child(17) {background-color: rgb(182, 255, 182);}
+.shanzi li:nth-child(18) {background-color: rgb(182, 255, 198);}
+.shanzi li:nth-child(19) {background-color: rgb(182, 255, 218);}
+.shanzi li:nth-child(20) {background-color: rgb(182, 255, 234);}
+.shanzi li:nth-child(21) {background-color: rgb(182, 255, 255);}
+.shanzi li:nth-child(22) {background-color: rgb(182, 234, 255);}
+.shanzi li:nth-child(23) {background-color: rgb(182, 218, 255);}
+.shanzi li:nth-child(24) {background-color: rgb(182, 198, 255);}
