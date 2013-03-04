@@ -2,16 +2,16 @@ body {
   margin: 0;
 }
 .shanzi-container {
-  height: 500px;
   width: 100%;
 }
 .shanzi li {
   list-style-type: none;
   position: absolute;
-  height: 400px;
-  width: 260px;
-  font-size: 140px;
-  line-height: 200px;
+  padding: 40px;
+  height: 320px;
+  width: 180px;
+  font-size: 100px;
+  line-height: 160px;
   text-align: center;
   left: 50%;
   margin-left: -130px;
