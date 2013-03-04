@@ -1,6 +1,37 @@
 body {
   margin: 0;
 }
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 10px
+}
+.nav {
+  float: right;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.nav li {
+  list-style-type: none;
+  padding: 5px 10px;
+  border: solid 1px #888;
+  border-bottom: 0;
+}
+.nav li:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+}
+.nav li:last-child {
+  border-bottom: solid 1px #888;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+}
+.nav li a {
+  text-decoration: none;
+}
+
+
 .shanzi-container {
   width: 100%;
 }
